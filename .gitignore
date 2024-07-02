@@ -1,0 +1,13 @@
+# Misc
+.DS_Store
+
+# Environement files
+.env
+.*local
+
+# Drowser folders and files
+drowser
+drowser-reports.json
+
+# Build folders
+dist/
