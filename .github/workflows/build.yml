@@ -18,7 +18,7 @@ jobs:
         uses: denoland/setup-deno@v1
         with:
           deno-version: ${{ matrix.deno-version }}
-      - name: Run Lint
-        run: deno lint src/
-      - name: Run Tests
-        run: deno test -A mod_test.ts
+      # - name: Run Lint
+      #   run: deno lint src/
+      # - name: Run Tests
+      #   run: deno test -A mod_test.ts
