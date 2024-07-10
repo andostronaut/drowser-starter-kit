@@ -1,4 +1,5 @@
-// Learn more at https://deno.land/manual/examples/module_metadata#concepts
+import { runOnChrome } from './src/browsers/chrome.ts'
+
 if (import.meta.main) {
-	//
+	runOnChrome()
 }
